@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестовое</title>
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Manrope'>
+    <link rel="stylesheet" href="style/general.css">
+    <link rel="stylesheet" href="style/banner.css">
+    <link rel="stylesheet" href="style/popup.css">
+</head>
+<body>
+    <main class="page">
+        <section class="banner">
+            <div class="banner__container">
+                <div class="banner__info">
+                    <h1 class="banner__info-header">Демо-версия</h1>
+                    <h1 class="banner__info-description">За 18 лет деятельности было реализовано более 500 крупных, а так же, не менее 2500 средних и малых проектов. Используя знания и накопленный опыт мы можем предложить</h1>
+                    <button class="banner__info-button">Попробовать бесплатно</button>
+                </div>
+                <div class="banner__image-wrapper">
+                    <img src="images/image.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <div class="popup__bg"> 
+            <form class="popup">
+                <p class="popup__header">Войти в систему</p>
+                <img src="images/close.svg" class="close-popup">
+
+                <input class="popup__input" type="tel" placeholder="Email/Телефон" name="tel">
+                <input class="popup__input" type="password" placeholder="Пароль" name="tel">
+
+                <label class="popup__checkbox-wrapper">Запомнить пароль
+                    <input class="popup__checkbox" type="checkbox">
+                    <span class="popup__checkmark"></span>
+                </label>
+
+                <a class="popup__link">Восстановить</a>
+
+                <button class="popup__button sign-in" type="submit">Войти</button>
+                <button class="popup__button sign-up" type="submit">Зарегистрироваться</button>
+            </form>
+        </div>
+
+    </div>
+
+    </main>
+    <script src="js/popup.js"></script>
+</body>
+</html>
